@@ -4,7 +4,6 @@ package org.andrew.fileHandler.controller;
 import org.andrew.fileHandler.Entity.ApplianceEntity;
 import org.andrew.fileHandler.Entity.BedroomEntity;
 import org.andrew.fileHandler.Entity.HouseEntity;
-import org.andrew.fileHandler.Entity.TestEntity;
 import org.andrew.fileHandler.helper.Response;
 import org.andrew.fileHandler.service.DisplayService;
 import org.springframework.beans.factory.annotation.Autowired;
