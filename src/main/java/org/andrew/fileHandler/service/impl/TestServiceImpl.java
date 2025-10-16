@@ -13,8 +13,8 @@ import java.util.List;
 @Service
 public class TestServiceImpl implements TestService {
 
-    @Autowired
-    private  TestRepository testRepository;
+        @Autowired
+        private  TestRepository testRepository;
     @Override
     public List<TestEntity> selectAll() {
         List<TestEntity> all = testRepository.findAll();
